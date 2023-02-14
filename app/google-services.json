@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214490673203",
+    "project_id": "appchool-c9421",
+    "storage_bucket": "appchool-c9421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214490673203:android:c8ce57f50f3c0b1872f346",
+        "android_client_info": {
+          "package_name": "com.hscompany.appchool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214490673203-bqkkoe3alh30af2kuh9ri65jrnostfdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEQDPGmppYpKYoApE7dRGhu3dVw5O8D6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214490673203-bqkkoe3alh30af2kuh9ri65jrnostfdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_account_information.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_find_account.xml" value="0.33" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_get_account.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_introduce.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_open_source.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_settings_user_info.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_settings_user_info2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/activity_test.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/calendar_fragment.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/checkmanager_fragment.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/dialog_register_privacy_policy.xml" value="0.33" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/dialog_register_term_of_use.xml" value="0.1" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/listview_opensource.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/mainmenu_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/page.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/settings_delete_user_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/settings_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/settings_guides_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/settings_user_info_change_pw.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/WorkStation/AndroidStudioProjects/AppChool/app/src/main/res/layout/settings_user_info_item.xml" value="0.9" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

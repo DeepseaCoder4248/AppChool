@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        tools:context=".RegisterActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_register_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/register_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.5" />
+
+                    <EditText
+                        android:id="@+id/edt_register_activate_num1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+
+                        android:layout_weight="1"
+                        android:backgroundTint="#7EA4FF"
+                        android:ems="10"
+
+                        android:inputType="textPersonName"
+                        android:maxLength="9"
+                        android:shadowColor="#1D000000"
+                        android:shadowDx="2.0"
+                        android:shadowDy="10.0"
+                        android:shadowRadius="2.0"
+                        android:textColor="#7EA4FF"
+                        android:textColorHint="#7EA4FF"
+                        android:textSize="15sp"
+                        tools:maxLength="4" />
+
+                    <EditText
+                        android:id="@+id/edt_register_activate_num2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_weight="1"
+
+                        android:backgroundTint="#7EA4FF"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+
+                        android:maxLength="9"
+                        android:shadowColor="#1D000000"
+                        android:shadowDx="2.0"
+                        android:shadowDy="10.0"
+                        android:shadowRadius="2.0"
+                        android:textColor="#7EA4FF"
+                        android:textColorHint="#7EA4FF"
+                        android:textSize="15sp"
+                        tools:maxLength="4" />
+
+                    <ImageView
+                        android:id="@+id/btn_register_activate_access"
+                        android:layout_width="63dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/btnponecheck"
+                        android:translationY="-6dp">
+
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_register_activate_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#7EA4FF"
+                        android:ems="10"
+
+                        android:hint="인증번호"
+                        android:inputType="textPersonName"
+                        android:maxLength="9"
+                        android:shadowColor="#1D000000"
+
+                        android:shadowDx="2.0"
+                        android:shadowDy="10.0"
+                        android:shadowRadius="2.0"
+                        android:textColor="#7EA4FF"
+                        android:textColorHint="#7EA4FF"
+                        android:textSize="15sp"
+                        tools:maxLength="6" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_register_activate_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="TextView"
+            android:textColor="#D81B60"
+            android:translationX="3dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:translationY="20dp">
+
+            <ImageView
+                android:id="@+id/btn_register_activate_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/cm_adddate_btnok"
+                android:text="Button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

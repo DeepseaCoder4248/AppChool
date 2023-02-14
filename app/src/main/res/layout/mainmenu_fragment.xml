@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_percent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="@font/jalhan"
+            android:gravity="center"
+            android:paddingTop="67dp"
+            android:shadowColor="#000000"
+            android:shadowDx="-3"
+            android:shadowDy="6"
+            android:shadowRadius="8"
+            android:textColor="#000000"
+            android:textSize="70sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/jalhan"
+            android:gravity="center|top"
+            android:paddingTop="3dp"
+            android:shadowColor="#CCCCCC"
+            android:shadowDx="-1"
+            android:shadowDy="6"
+            android:shadowRadius="3"
+            android:text="오늘 출석률"
+            android:textColor="#117CFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/lv_mainmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tv_mainfragment_admob"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/adview_mainfragment_admob"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1920561236984363/2956516078" />
+
+    </LinearLayout>
+
+</LinearLayout>

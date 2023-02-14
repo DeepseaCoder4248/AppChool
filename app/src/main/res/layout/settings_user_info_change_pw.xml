@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewgroup_settings_user_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".FindAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/tv_settings_user_info_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:backgroundTint="#7EA4FF"
+                android:ems="10"
+
+                android:hint="새 비밀번호를 입력해주세요"
+                android:inputType="textPersonName|textWebPassword"
+
+                android:shadowColor="#1D000000"
+                android:shadowDx="2.0"
+                android:shadowDy="10.0"
+                android:shadowRadius="2.0"
+                android:textColor="#7EA4FF"
+                android:textColorHint="#7EA4FF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_settings_user_info_checkpw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:backgroundTint="#7EA4FF"
+                android:ems="10"
+
+                android:hint="비밀번호를 다시 입력해주세요"
+                android:inputType="textPersonName|textWebPassword"
+
+                android:shadowColor="#1D000000"
+                android:shadowDx="2.0"
+                android:shadowDy="10.0"
+                android:shadowRadius="2.0"
+                android:textColor="#7EA4FF"
+                android:textColorHint="#7EA4FF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_settings_user_info_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="TextView"
+                android:textColor="#D81B60"
+                android:translationX="3dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_settings_user_info_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/btn_find_account_resetpw" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
